@@ -1,0 +1,21 @@
+<header class="site-header">
+    <div class="container">
+        <div class="header-content">
+            <div class="site-branding">
+                <a href="{{ "/" | relURL }}" class="site-title">{{ .Site.Title }}</a>
+                {{- if .Site.Params.tagline }}
+                <p class="tagline">{{ .Site.Params.tagline }}</p>
+                {{- end }}
+            </div>
+
+            {{- partial "nav.html" . -}}
+
+            <!-- Mobile menu toggle -->
+            <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </div>
+</header>
