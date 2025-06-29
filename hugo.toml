@@ -1,0 +1,4 @@
+baseURL = 'https://kbose.me/'
+languageCode = 'en-us'
+title = "K Bose's Blog"
+theme = "boseme"

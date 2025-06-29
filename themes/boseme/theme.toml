@@ -1,0 +1,10 @@
+name = "boseme"
+description = "A custom blog theme for K Bose's personal blog."
+homepage = "https://kbose.me/"
+tags = ["blog", "personal", "responsive"]
+features = ["blog", "posts", "responsive"]
+min_version = "0.147.9"
+
+[author]
+name = "K Bose"
+homepage = "https://kbose.me"

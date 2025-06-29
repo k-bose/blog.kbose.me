@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en-us" }}">
+<head>
+    {{- partial "head.html" . -}}
+</head>
+<body>
+    {{- partial "header.html" . -}}
+
+    <main id="main">
+        {{- block "main" . }}{{- end }}
+    </main>
+
+    {{- partial "footer.html" . -}}
+
+    <!-- Scripts -->
+    <script>
+        // Add any global JavaScript here
+        console.log('{{ .Site.Title }} loaded');
+    </script>
+</body>
+</html>

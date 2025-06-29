@@ -1,0 +1,31 @@
+<nav class="main-navigation">
+    <ul class="nav-menu">
+        <li><a href="{{ "/" | relURL }}" {{ if .IsHome }}class="active"{{ end }}>Home</a></li>
+
+        {{- if .Site.GetPage "section" "posts" }}
+        <li><a href="{{ "posts" | relURL }}" {{ if eq .Section "posts" }}class="active"{{ end }}>Blog</a></li>
+        {{- end }}
+
+        {{- if .Site.GetPage "section" "about" }}
+        <li><a href="{{ "about" | relURL }}" {{ if eq .Section "about" }}class="active"{{ end }}>About</a></li>
+        {{- end }}
+
+        {{- if .Site.GetPage "section" "projects" }}
+        <li><a href="{{ "projects" | relURL }}" {{ if eq .Section "projects" }}class="active"{{ end }}>Projects</a></li>
+        {{- end }}
+
+        <!-- Custom menu items from config -->
+        {{- range .Site.Menus.main }}
+        <li><a href="{{ .URL }}" {{ if .Post }}target="_blank" rel="noopener"{{ end }}>{{ .Name }}</a></li>
+        {{- end }}
+
+        <!-- Social links -->
+        {{- if .Site.Params.social }}
+        <li class="social-links">
+            {{- range .Site.Params.social }}
+            <a href="{{ .url }}" target="_blank" rel="noopener" aria-label="{{ .name }}">{{ .icon | safeHTML }}</a>
+            {{- end }}
+        </li>
+        {{- end }}
+    </ul>
+</nav>
