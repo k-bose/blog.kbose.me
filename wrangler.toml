@@ -1,0 +1,10 @@
+name = "blog-kbose-me"
+compatibility_date = "2025-06-29"
+
+[pages]
+"*" = { d1_databases = [
+    "DB",
+], durable_objects = [
+], kv_namespaces = [
+], r2_buckets = [
+] }
