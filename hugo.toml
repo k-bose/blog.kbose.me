@@ -1,7 +1,10 @@
 baseURL = 'https://kbose.me/'
 languageCode = 'en-us'
-title = "K Bose's Blog"
+title = "K Bose"
 theme = "hugo-theme-stack"
+
+[params]
+mainSections = ["posts"]
 
 [params.sidebar]
 compact = false
