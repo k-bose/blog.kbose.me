@@ -24,3 +24,6 @@ Thumbs.db
 *.md
 *.txt
 !README.md
+
+# Backup Files
+*.backup

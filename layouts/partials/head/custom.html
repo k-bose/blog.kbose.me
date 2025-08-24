@@ -1,0 +1,22 @@
+<style>
+    /* Custom styles for the website */
+
+    /* Set a custom background gradient for the dark theme */
+    :root[data-scheme="dark"] {
+        /* 
+         * Create a linear gradient from top-left to bottom-right.
+         * The first color (#3b3c36) will extend 10% of the way 
+         * before transitioning to the second color (#002147).
+         */
+        background: linear-gradient(to bottom right, #3b3c36 10%, #002147);
+
+        /* Make the body background transparent to show the gradient */
+        --body-background: transparent;
+    }
+
+    /* Change the default scrollbar behavior */
+    html {
+        /* Only show the scrollbar when there is content to scroll */
+        overflow-y: auto;
+    }
+</style>
