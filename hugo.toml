@@ -1,4 +1,14 @@
 baseURL = 'https://kbose.me/'
 languageCode = 'en-us'
 title = "K Bose's Blog"
-theme = "boseme"
+theme = "hugo-theme-stack"
+
+[params.sidebar]
+compact = false
+emoji = "🖖"
+subtitle = "Your site subtitle"
+
+[params.sidebar.avatar]
+enabled = true
+src = "img/avatar.webp"
+local = true
