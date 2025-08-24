@@ -6,7 +6,7 @@ theme = "hugo-theme-stack"
 [params.sidebar]
 compact = false
 emoji = "🖖"
-subtitle = "Your site subtitle"
+subtitle = "Research Scientist | PGIMER"
 
 
 [menu]
