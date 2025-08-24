@@ -17,3 +17,10 @@ hugo_stats.json
 # OS-specific files
 .DS_Store
 Thumbs.db
+
+# Ignore all Markdown files
+# and txt files
+# but keep README.md
+*.md
+*.txt
+!README.md
