@@ -1,0 +1,68 @@
+<style>
+    /* Custom styles for the website */
+
+    /* Set a custom background gradient for the dark theme */
+    :root[data-scheme="dark"] {
+        /* 
+         * Create a linear gradient from top-left to bottom-right.
+         * The first color (#3b3c36) will extend 10% of the way 
+         * before transitioning to the second color (#002147).
+         */
+        background: linear-gradient(to bottom right, #3b3c36 10%, #002147);
+
+        /* Make the body background transparent to show the gradient */
+        --body-background: transparent;
+    }
+
+    /* Change the default scrollbar behavior */
+    html {
+        /* Only show the scrollbar when there is content to scroll */
+        overflow-y: auto;
+    }
+
+    /* --- Custom Sidebar Styles --- */
+
+    /* 1. Center all direct children of the sidebar and set avatar size */
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        --sidebar-avatar-size: 150px; /* Adjust this value to your liking */
+    }
+
+    /* 2. Increase the size of the site title */
+    .sidebar header .site-name {
+        font-size: 3rem; /* Adjust this value to your liking */
+    }
+
+    /* 3. Ensure the header content (avatar, title) is centered */
+    .sidebar header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* 4. Center the social icons menu */
+    .menu-social {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px; /* Adjust spacing between icons */
+        padding-left: 0; /* Remove default list padding */
+    }
+
+    /* 5. Center the dark mode toggle */
+    #main-menu .menu-bottom-section {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* --- Custom Layout Styles --- */
+
+    /* 6. Increase the overall width of the page */
+    .container.compact {
+        max-width: 1500px; /* Adjust this value to your liking */
+    }
+
+</style>
