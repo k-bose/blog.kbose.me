@@ -25,3 +25,6 @@ Thumbs.db
 
 # Backup Files
 *.backup
+
+# Editor/agent local files
+.zcode/
