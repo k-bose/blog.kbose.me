@@ -32,6 +32,12 @@ avatar = "img/avatar.webp"
         url = "/publications/"
         weight = 10
 
+    [[menu.main]]
+        identifier = "newsletter"
+        name = "Newsletter"
+        url = "/newsletter/"
+        weight = 20
+
     [[menu.social]]
         identifier = "github"
         name = "GitHub"
