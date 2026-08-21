@@ -30,7 +30,7 @@ avatar = "img/avatar.webp"
         identifier = "home"
         name = "Blog"
         url = "/"
-        weight = 0
+        weight = -100
         params = { icon = "home" }
 
     [[menu.main]]
