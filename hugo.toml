@@ -4,12 +4,19 @@ title = "K Bose"
 theme = "hugo-theme-stack"
 enableRobotsTXT = true
 
+[permalinks]
+page = "/:slug/"
+
 [params]
 mainSections = ["posts"]
 favicon = "img/avatar.webp"
 
 [params.opengraph.twitter]
 site = "0xkbose"
+
+[params.widgets]
+homepage = [{ type = "search" }]
+page = [{ type = "toc" }]
 
 [params.sidebar]
 compact = false
