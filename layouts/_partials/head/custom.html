@@ -22,8 +22,10 @@
 
     /* --- Custom Sidebar Styles --- */
 
-    /* 1. Center all direct children of the sidebar and set avatar size */
-    .sidebar {
+    /* 1. Center all direct children of the LEFT sidebar and set avatar size.
+     *    Scoped to .left-sidebar so right-sidebar widgets keep the theme's
+     *    full-width cards (align-items: center would shrink them). */
+    .left-sidebar {
         display: flex;
         flex-direction: column;
         align-items: center;
