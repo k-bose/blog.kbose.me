@@ -1,15 +1,17 @@
 baseURL = 'https://kbose.me/'
-languageCode = 'en-us'
+locale = 'en-us'
 title = "K Bose"
 theme = "hugo-theme-stack"
 
 [params]
 mainSections = ["posts"]
+favicon = "img/avatar.webp"
 
 [params.sidebar]
 compact = false
 emoji = "🖖"
 subtitle = "Research Scientist | PGIMER"
+avatar = "img/avatar.webp"
 
 
 [menu]
@@ -30,8 +32,3 @@ subtitle = "Research Scientist | PGIMER"
         name = "LinkedIn"
         url = "https://linkedin.com/in/k-bose"
         params = { icon = "brand-linkedin" }
-
-[params.sidebar.avatar]
-enabled = true
-src = "img/avatar.webp"
-local = true
