@@ -8,6 +8,9 @@ enableRobotsTXT = true
 mainSections = ["posts"]
 favicon = "img/avatar.webp"
 
+[params.opengraph.twitter]
+site = "0xkbose"
+
 [params.sidebar]
 compact = false
 emoji = "🖖"
