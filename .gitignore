@@ -18,11 +18,9 @@ hugo_stats.json
 .DS_Store
 Thumbs.db
 
-# Ignore all Markdown files
-# and txt files
-# but keep README.md
-*.md
-*.txt
+# Ignore scratch notes int the repo root only (content/ and layouts/ stay trackable)
+/*.md
+/*.txt
 !README.md
 
 # Backup Files
