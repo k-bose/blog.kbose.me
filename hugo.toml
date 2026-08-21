@@ -2,6 +2,7 @@ baseURL = 'https://kbose.me/'
 locale = 'en-us'
 title = "K Bose"
 theme = "hugo-theme-stack"
+enableRobotsTXT = true
 
 [params]
 mainSections = ["posts"]
