@@ -28,7 +28,7 @@ avatar = "img/avatar.webp"
 [menu]
     [[menu.main]]
         identifier = "home"
-        name = "Home"
+        name = "Blog"
         url = "/"
         weight = 0
         params = { icon = "home" }
@@ -39,13 +39,6 @@ avatar = "img/avatar.webp"
         url = "/publications/"
         weight = 10
         params = { icon = "archives" }
-
-    [[menu.main]]
-        identifier = "newsletter"
-        name = "Newsletter"
-        url = "/newsletter/"
-        weight = 20
-        params = { icon = "messages" }
 
     [[menu.social]]
         identifier = "github"
